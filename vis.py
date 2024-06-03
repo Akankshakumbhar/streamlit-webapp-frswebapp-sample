@@ -71,7 +71,7 @@ st.bar_chart(data)
 st.area_chart(data)
 
 
-#import plotly.express as px
+'''#import plotly.express as px
 #fig=px.histogram(x='total_bill',data=df)
 #st.plotly_chart(fig)
 import streamlit as st
@@ -89,6 +89,6 @@ p = figure(title='Line Chart', x_axis_label='X axis', y_axis_label='Y axis')
 p.line(x, y)
 
 # Display the Bokeh figure in Streamlit
-st.bokeh_chart(p)
+st.bokeh_chart(p)'''
 
 
